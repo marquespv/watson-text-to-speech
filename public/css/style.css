@@ -1,0 +1,32 @@
+li {
+    list-style-type:none;
+}
+
+div.container {
+    height: 100%;
+    width: 90%;
+}    
+
+.box-esquerdo {
+    width: 40%;
+    float: left;
+    height: 300px;/*Altura da linha*/
+    padding-left: 10%;
+}
+   
+.linha-vertical {
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    box-sizing: border-box;
+   }
+
+.box-direito{
+    width: 40%;
+    float: left;   
+    height: 300px;/*Altura da linha*/
+
+}
+
+.colMensagem{
+    width:auto;
+    text-align:justify;
+}
